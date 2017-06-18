@@ -1,0 +1,107 @@
+.header {
+	height: 100vh;
+	background-image: url(img/2.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.overlay:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .6);
+}
+
+.header-fixed {
+	height: 75px;
+	background-color: rgba(0, 0, 0, .6);
+	width: 100%;
+	position: fixed;
+	-webkit-transition: .3s ease-out;
+	-o-transition: .3s ease-out;
+	transition: .8s ease-out;
+}
+
+.topline-header {
+	position: fixed;
+  width: 100%;
+  height: 78px;
+	-webkit-transition: .3s ease-out;
+	-o-transition: .3s ease-out;
+	transition: .8s ease-out;
+	z-index: 9999;
+}
+
+.logo	{
+	font-size: 24px;
+	font-weight: 600;
+	display: inline-block;
+	letter-spacing: 4px;
+	
+}
+
+.nav-header ul{
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-header {
+	float: right;
+	margin-bottom: 50px;
+}
+
+.nav-header ul>li {
+	padding: 10px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.text-header {
+	font-size: 28px;
+	font-weight: 300;
+	margin-top: 250px;
+}
+
+.typing {
+	font-weight: 500;
+}
+
+.button-header	{
+	border: 2px solid #fff;
+	padding: 10px 20px;
+	width: 270px;
+	border-radius: 60px;
+	border-bottom: 2px solid #1ABCE9;
+	border-left: 2px solid #1ABC9C;
+	border-right: 2px solid #1ABC9C;
+	border-top: 2px solid #1ABCE9;
+	display: inline-block;
+	font-weight: 100;
+}
+
+.button-header {
+	position: relative;
+	top: 100px;
+}
+
+
+.button-header:hover,
+.button-header:active,
+.button-header:focus {
+	background: rgba(36, 182, 98, .6);
+	color: #ffffff !important;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.6s;
+}
+
+.button-header:not(:hover),
+.button-header:not(:active),
+.button-header:not(:focus) {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.6s;
+}
